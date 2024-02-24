@@ -24,7 +24,7 @@ add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES})
 find_package(OpenGL REQUIRED)
 
 # Variable for the Libs to add to the Linkers
-set(LIBS glfw opengl32 glad)
+set(LIBS glfw glad)
 
 # Variables for Paths of External Libraries
 set(GLFW_ROOT_DIR external/glfw)
